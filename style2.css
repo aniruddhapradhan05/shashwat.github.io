@@ -1,0 +1,323 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 98%;
+    height: 800px;
+    border: 15px solid #bd7817;
+}
+.div3{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    overflow: auto;
+    background-color: #bd7817;
+}
+.div1{
+    width: 69.99%;
+    height: 700px;
+    background-color: #bfeeaf;
+    float: left;
+    position: relative;
+    overflow: auto;
+}
+.div2{
+    width: 30%;
+    height: 700px;
+    background-color: #bfeeaf;
+    position: relative;
+    overflow: auto;
+
+}
+.div3 img{
+    width: 50%;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    border-radius: 6px;
+}
+.h1div{
+    width: 70%;
+    height: 800px;
+}
+.section2 h1{
+    background-color: #fff;
+    position : absolute;
+    top:50px;
+    left: 40px;
+    right: 10px;
+    padding: 10px 40px;
+    color:rgb(105, 18, 198);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-size:x-large;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button1{
+    position:absolute;
+    top: 250px;
+    left: 40px;
+    background-color: #3e2093;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 25px solid #fff;
+    
+}
+.button1:hover{
+    transition: 100ms;
+    background-color: rgb(141, 96, 189);
+    font-size: 35px;
+}
+.button2{
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    background-color: #3e2093;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 25px solid #fff;
+    
+}
+.button2:hover{
+    transition: 100ms;
+    background-color: rgb(141, 96, 189);
+    font-size: 35px;
+}
+
+.button3{
+    position:absolute;
+    top: 450px;
+    left: 40px;
+    background-color: #3e2093;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 25px solid #fff;
+    
+}
+.button3:hover{
+    transition: 100ms;
+    background-color: rgb(141, 96, 189);
+    font-size: 35px;
+}
+
+.button4{
+    position:absolute;
+    top: 250px;
+    left: 60%;
+    background-color: #3e2093;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 25px solid #fff;
+    
+}
+.button4:hover{
+    transition: 100ms;
+    background-color: rgb(141, 96, 189);
+    font-size: 35px;
+}
+.button6{
+    position:absolute;
+    top: 350px;
+    left: 60%;
+    background-color: #3e2093;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 25px solid #fff;
+    
+}
+.button6:hover{
+    transition: 100ms;
+    background-color: rgb(141, 96, 189);
+    font-size: 35px;
+}
+.button7{
+    position:absolute;
+    top: 450px;
+    left: 60%;
+    background-color: #3e2093;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 25px solid #fff;
+    
+}
+.button7:hover{
+    transition: 100ms;
+    background-color: rgb(141, 96, 189);
+    font-size: 35px;
+}
+
+
+
+
+
+
+  
+.section1{
+    width: 80%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    bottom: 20%;
+}
+.section1 .content{
+    flex-direction: column-reverse;
+  }
+
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 33px;
+    font-weight: 600;
+    color: #3e2093;
+    padding: 30px 30px;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 90%;
+    margin: 12px 0;
+  }
+  
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    background: #5029bc;
+  }
+  
+@media(max-width:700px){
+    .div1{
+        float: none;
+        width: 100%;
+        height: 900px;
+        overflow: visible;
+    }
+    .div3 img{
+        width: 80%;
+        left: 10%;
+        top:30%;
+    }
+    .div1 h1{
+        left: 20px;
+        right: 20px;
+    }
+    body{
+        width: 100%;
+        height: 1600px;
+    }
+    .button1{
+        top: 60%;
+        border: 5px solid #fff;
+        font-size: 20px;
+    }
+    .button2{
+        top: 68%;
+        border: 5px solid #fff;
+        font-size: 20px;
+    }
+    .button3{
+        top: 76%;
+        border: 5px solid #fff;
+        font-size: 20px;
+    }
+    .button4{
+        top: 84%;
+        border: 5px solid #fff;
+        font-size: 20px;
+        left: 40px;
+    }
+    .button6{
+        top: 92%;
+        border: 5px solid #fff;
+        font-size: 20px;
+        left: 40px;
+    }
+    .button7{
+        top: 100%;
+        border: 5px solid #fff;
+        font-size: 20px;
+        left: 40px;
+    }
+    .div2{
+        width: 100%;
+        height: 600px;
+    }
+    .section1{
+        width: 85%;
+        left: 5%;
+        bottom: 10%;
+    }
+}
